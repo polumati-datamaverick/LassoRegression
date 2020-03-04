@@ -1,8 +1,8 @@
 import math
 
-from packages.regression_model.predict import make_prediction
-from packages.regression_model.processing.data_management import load_dataset
-from packages.regression_model import config
+from regression_model.predict import make_prediction
+from regression_model.processing.data_management import load_dataset
+from regression_model import config
 
 
 def test_make_single_prediction():
