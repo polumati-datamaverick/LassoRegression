@@ -19,7 +19,7 @@ jobs:
             py.test -vv packages/regression_model/tests
 
 workflows:
-  version:2
+  version: 2
   test-all:
     jobs:
     - test_regression_model
