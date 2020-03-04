@@ -12,8 +12,8 @@ def test_make_single_prediction():
     output = make_prediction(input_data=single_test_json)
 
     assert output is not None
-    assert isinstance(output.get('prediction'), float)
-    assert math.ceil(output.get('prediction')) == 112476
+    assert isinstance(output.get('predictions'), float)
+    assert math.ceil(output.get('predictions')) == 112476
 
 
 def test_make_multiple_predictions():
@@ -24,8 +24,8 @@ def test_make_multiple_predictions():
     output = make_prediction(input_data=multiple_test_json)
 
     assert output is not None
-    assert len(output.get('prediction')) == 1451
-    assert len(output.get('prediction')) == original_data_length
+    assert len(output.get('predictions')) == 1451
+    assert len(output.get('predictions')) == original_data_length
 
 
 
