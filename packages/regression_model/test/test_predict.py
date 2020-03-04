@@ -1,7 +1,7 @@
 import math
 
 from packages.regression_model.predict import make_prediction
-from packages.regression_model.preprocessing.data_management import load_dataset
+from packages.regression_model.processing.data_management import load_dataset
 from packages.regression_model import config
 
 
