@@ -13,7 +13,7 @@ def test_make_single_prediction():
 
     assert output is not None
     assert isinstance(output.get('predictions')[0], float)
-    assert math.ceil(output.get('predictions')[0]) == 112476
+    assert math.ceil(output.get('predictions')[0]) == 98627
 
 
 def test_make_multiple_predictions():
